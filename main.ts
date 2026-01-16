@@ -24,7 +24,7 @@ const isolatedTools=['Gmail_ListEmails', 'Gmail_SendEmail']
 // This determines the maximum number of tool definitions Arcade will return
 const toolLimit = 100;
 // This prompt defines the behavior of the agent.
-const systemPrompt = `You're a very useful assistant with access to Gmail and Slack tools, please use them to effectively do tasks requested by the user`;
+const systemPrompt = "You\u0027re a very useful assistant with access to Gmail and Slack tools, please use them to effectively do tasks requested by the user";
 // This determines which LLM will be used inside the agent
 const agentModel = process.env.OPENAI_MODEL;
 if (!agentModel) {
